@@ -6,7 +6,7 @@
 /*   By: sede-san <sede-san@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 13:10:29 by sede-san          #+#    #+#             */
-/*   Updated: 2025/10/31 14:15:50 by sede-san         ###   ########.fr       */
+/*   Updated: 2025/11/01 20:19:58 by sede-san         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 union u_data
 {
 	char	*s;
+	char	**sp;
 	char	c;
 	int		i;
 	double	d;
